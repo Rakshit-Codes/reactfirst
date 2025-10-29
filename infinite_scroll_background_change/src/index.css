@@ -1,0 +1,62 @@
+/* Remove default browser margin and set a clean font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main app container */
+.app {
+  text-align: center; /* Center all text */
+  padding: 20px; /* Add space inside the app */
+}
+
+/* Title style */
+.title {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+/* Subtitle (smaller text under title) */
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Box container: vertical layout (column) */
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Individual box style */
+.box {
+  height: 150px;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  display: flex; /* Center content horizontally and vertically */
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
